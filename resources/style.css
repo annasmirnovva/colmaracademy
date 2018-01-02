@@ -5,6 +5,7 @@ html{
 body{
   width: 100%;
   line-height: 1.2;
+  margin: 0 auto;
 }
 .flex{
   display:flex;
@@ -15,11 +16,14 @@ header{
   height: 4rem;
   background-color: white;
   justify-content: space-between;
-  padding: 0 1.5rem;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav ul{
   align-content: center;
+  padding-right: 1.5rem;
 }
 nav li{
   padding-right: 1rem;
@@ -27,6 +31,7 @@ nav li{
 .logo{
   align-items: center;
   height: 2rem;
+  padding-left: 1.5rem;
 }
 .logo em{
   font-weight: bold;
@@ -35,6 +40,7 @@ nav li{
 /*banner*/
 .banner{
   background-color: #cccccc;
+  margin-top: 4rem;
 }
 .banner .flex{
   align-content: center;
@@ -66,4 +72,59 @@ nav li{
   font-size: 1.2rem;
   padding: 0.5rem;
   text-align: center;
+}
+/*articles*/
+.articles{
+  width: 100%;
+}
+.mainstory{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.mainstory img{
+  width: 100%;
+  height: auto;
+}
+.mainstory h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.mainstory p{
+  margin-top: 1.5rem;
+}
+.otherstories{
+  width: 40%;
+  padding-top: 1rem;
+  flex-direction: column;
+  border-left: 1px solid #cccccc;
+}
+.story{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+}
+.story:last-child{
+  background-color: #cccccc;
+}
+.illustration{
+  width: 35%;
+  height:auto;
+  padding: 1rem;
+}
+.illustration img{
+  width:100%;
+  height:auto;
+}
+.story h3{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.info span{
+  color: #3399cc;
+  padding-top: 0.5rem;
+}
+.info{
+  width: 65%;
 }
