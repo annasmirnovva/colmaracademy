@@ -128,3 +128,33 @@ nav li{
 .info{
   width: 65%;
 }
+
+/*start learning*/
+
+.start{
+  background-color: #cccccc;
+  padding: 2rem 4.5rem;
+}
+.start h2{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.pathways{
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.pathway{
+  background-color: white;
+  margin: 2rem;
+  flex-direction: column;
+  width: 30%;
+}
+.photo{
+  height: auto;
+}
+.photo img{
+  width: 100%;
+}
