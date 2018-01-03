@@ -223,3 +223,18 @@ nav li{
 #grey {
   background-color: #cccccc;
 }
+footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #cccccc;
+  align-items: center;
+}
+.right{
+  padding: 1rem 1.5rem;
+}
+.left p{
+  margin-left: 0.5rem;
+}
+.left{
+  margin-right: 1rem;
+}
