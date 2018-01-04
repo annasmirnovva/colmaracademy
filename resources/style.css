@@ -48,10 +48,9 @@ nav li{
   height: 2rem;
   padding-left: 1.5rem;
 }
-/*.logo em{
-  font-weight: bold;
-}*/
-
+.mobilemenu{
+  display:none;
+}
 /*banner*/
 .banner{
   background-color: #cccccc;
@@ -237,4 +236,60 @@ footer{
 }
 .left{
   margin-right: 1rem;
+}
+.illmobile{
+  display: none;
+}
+
+/*responsive*/
+
+@media only screen and (max-width:480px){
+  .logo{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  .mobilemenu{
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+  }
+  .banner .flex{
+    flex-direction: column;
+  }
+  .banner img{
+    width:100%;
+    margin: 0;
+  }
+  .bannerinfo{
+    margin: 0 1rem;
+  }
+  .bannerinfo h1{
+    margin: 2rem 0;
+  }
+  .bannerinfo h3{
+    text-align: left;
+    margin: 0 0 1.5rem 0;
+  }
+  .button{
+    margin-bottom: 2rem;
+    width: 95%;
+  }
+  .mainstory{
+    display: none;
+  }
+  .otherstories{
+    width: 100%;
+    padding: 1rem;
+  }
+  .story{
+    flex-direction: column;
+  }
+  .illustration{
+    display:none;
+  }
+  .illmobile{
+    display: inline;
+  }
 }
