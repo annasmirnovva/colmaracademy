@@ -6,6 +6,7 @@ body{
   width: 100%;
   line-height: 1.2;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 .flex{
   display:flex;
@@ -23,8 +24,10 @@ h2{
   font-size: 2rem;
 }
 p{
-    color: #999999;
+    color: #7e7e7e;
+    line-height: 1.6;
 }
+
 /*header*/
 
 header{
@@ -47,6 +50,9 @@ nav li{
   align-items: center;
   height: 2rem;
   padding-left: 1.5rem;
+}
+.logo p{
+  color: black;
 }
 .mobilemenu{
   display:none;
@@ -77,6 +83,8 @@ nav li{
 .bannerinfo h3{
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  font-weight: normal;
+  line-height: 1.6;
 }
 .button{
   width: 100%;
