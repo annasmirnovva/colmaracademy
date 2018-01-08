@@ -142,6 +142,7 @@ nav li{
 .info span{
   color: #3399cc;
   padding-top: 0.5rem;
+  display: block;
 }
 .info{
   width: 65%;
@@ -329,13 +330,14 @@ footer{
   .text h3{
     margin: 0;
     padding: 0;
+    font-size: 1.2rem;
   }
   .pathway{
     display: block;
     width: 100%;
     background-color: #cccccc;
     margin: 0 auto;
-    padding: 1rem 0 1.5rem 1rem;
+    padding: 1rem;
     margin-bottom: 0.5rem;
   }
   .pathways{
@@ -367,5 +369,114 @@ footer{
   footer{
     border: none;
     margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width:909px){
+  .bannerinfo h1{
+    font-size: 2.5rem;
+  }
+  .bannerinfo h3{
+    font-size: 1rem;
+  }
+  .button{
+    width: 90%;
+  }
+  .otherstories{
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .otherstories h3{
+    font-size: 1.2rem;
+  }
+  .pathway{
+    width: 40%;
+  }
+  .desc h3{
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width:580px){
+  .logo{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  .mobilemenu{
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+  }
+  .bannerinfo h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .banner img{
+    margin: 1rem;
+  }
+  .banner .flex{
+    align-content: center;
+  }
+  .bannerinfo h3{
+    text-align: left;
+    line-height: 1.2;
+    font-size: 0.8rem;
+  }
+  .button{
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+  .articles .flex{
+    flex-direction: column;
+  }
+  .illustration{
+    display:none;
+  }
+  .illmobile{
+    display: block;
+    width: 100%;
+  }
+  .illmobile img{
+    width: 100%;
+  }
+  .mainstory{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mainstory img{
+    padding: 0;
+  }
+  .otherstories{
+    margin: 0 auto;
+    width: 90%;
+    border: none;
+  }
+  .info{
+    width: 100%;
+    margin: 1.5rem;
+  }
+  .story:last-child{
+    background-color: white;
+  }
+  .pathway .photo{
+    display:none;
+  }
+  .thesis .flex{
+    flex-direction: column;
+  }
+  #mobilecenter{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .video{
+    width: 90%;
+    margin: auto;
+  }
+  #grey{
+    background-color: white;
   }
 }
